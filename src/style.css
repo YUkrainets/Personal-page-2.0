@@ -1,0 +1,27 @@
+:root {
+  --color: #61777f;
+  --background-1: #ffffff;
+  --background-2: #c8c8c8;
+  --color-hover: #96b07f;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  max-width: 1200px;
+  background-color: var(--background-1);
+  color: var(--color);
+}
+h1,
+h2 {
+  text-align: center;
+}
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+.nav-link:hover {
+  color: var(--color-hover);
+}
