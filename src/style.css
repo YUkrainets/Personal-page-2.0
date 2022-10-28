@@ -25,3 +25,14 @@ h2 {
 .nav-link:hover {
   color: var(--color-hover);
 }
+.greeting {
+  margin: 50px;
+}
+.btn {
+  color: var(--color);
+  background-color: var(--background-2);
+}
+.btn:hover {
+  color: var(--color-hover);
+  transition: ease-in-out 0.25s;
+}
