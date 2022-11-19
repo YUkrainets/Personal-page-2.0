@@ -47,7 +47,6 @@ li {
 
 footer {
   padding: 120px 50px 10px 50px;
-  background-color: var(--background-2);
 }
 
 @media (max-width: 576px) {
